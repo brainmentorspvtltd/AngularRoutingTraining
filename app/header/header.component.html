@@ -1,0 +1,20 @@
+<div>
+    <ul>
+        <li>
+            <a [routerLink]="'home'" [routerLinkActive]="active">Home</a>
+        </li>
+        <li>
+            <a [routerLink]="about" routerLinkActive="active">About Us</a>
+
+        </li>
+        <li>
+            <a routerLink="news/100/Sports" routerLinkActive="active">News </a>
+
+        </li>
+        <li>
+            <a routerLink="contactus" routerLinkActive="active">Contactus </a>
+
+        </li>
+    </ul>
+    <button (click)='loadHome()'>Redirect to Home</button>
+</div>
